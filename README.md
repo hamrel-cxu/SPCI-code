@@ -19,7 +19,6 @@
   month = 	 {23--29 Jul},
   publisher =    {PMLR},
   pdf = 	 {https://proceedings.mlr.press/v202/xu23r/xu23r.pdf},
-  url = 	 {https://proceedings.mlr.press/v202/xu23r.html},
-  abstract = 	 {We present a new distribution-free conformal prediction algorithm for sequential data (e.g., time series), called the <em>sequential predictive conformal inference</em> (SPCI). We specifically account for the nature that time series data are non-exchangeable, and thus many existing conformal prediction algorithms are not applicable. The main idea is to adaptively re-estimate the conditional quantile of non-conformity scores (e.g., prediction residuals), upon exploiting the temporal dependence among them. More precisely, we cast the problem of conformal prediction interval as predicting the quantile of a future residual, given a user-specified point prediction algorithm. Theoretically, we establish asymptotic valid conditional coverage upon extending consistency analyses in quantile regression. Using simulation and real-data experiments, we demonstrate a significant reduction in interval width of SPCI compared to other existing methods under the desired empirical coverage.}
+  url = 	 {https://proceedings.mlr.press/v202/xu23r.html}
 }
  ```
