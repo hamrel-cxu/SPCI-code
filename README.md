@@ -7,10 +7,19 @@
  
  If you find our work useful, please consider citing it.
  ```
- @article{xu2022sequential,
-  title={Sequential Predictive Conformal Inference for Time Series},
-  author={Xu, Chen and Xie, Yao},
-  journal={arXiv preprint arXiv:2212.03463},
-  year={2022}
+@InProceedings{xu2023SPCI,
+  title = 	 {Sequential Predictive Conformal Inference for Time Series},
+  author =       {Xu, Chen and Xie, Yao},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {38707--38727},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/xu23r/xu23r.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/xu23r.html},
+  abstract = 	 {We present a new distribution-free conformal prediction algorithm for sequential data (e.g., time series), called the <em>sequential predictive conformal inference</em> (SPCI). We specifically account for the nature that time series data are non-exchangeable, and thus many existing conformal prediction algorithms are not applicable. The main idea is to adaptively re-estimate the conditional quantile of non-conformity scores (e.g., prediction residuals), upon exploiting the temporal dependence among them. More precisely, we cast the problem of conformal prediction interval as predicting the quantile of a future residual, given a user-specified point prediction algorithm. Theoretically, we establish asymptotic valid conditional coverage upon extending consistency analyses in quantile regression. Using simulation and real-data experiments, we demonstrate a significant reduction in interval width of SPCI compared to other existing methods under the desired empirical coverage.}
 }
  ```
