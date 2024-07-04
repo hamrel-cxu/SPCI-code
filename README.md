@@ -4,6 +4,12 @@
  Please direct questions regarding implementation to cxu310@gatech.edu.
  
  See [tutorial_electric_EnbPI_SPCI.ipynb](https://github.com/hamrel-cxu/SPCI-code/blob/main/tutorial_electric_EnbPI_SPCI.ipynb) for comparing SPCI against [EnbPI](https://ieeexplore.ieee.org/abstract/document/10121511), which is an earlier method of ours. We demonstrate significant reduction in interval width on the electric dataset, which is also used in [Nex-CP](https://arxiv.org/abs/2202.13415) (Barber et al., 2022).
+
+ Installation of dependency:
+
+ ```
+pip install -r requirements.txt
+```
  
  If you find our work useful, please consider citing it.
  ```
