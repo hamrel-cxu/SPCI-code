@@ -1,5 +1,5 @@
 # SPCI code
- Official implementation of the work [Sequential Predictive Conformal Inference for Time Series](https://openreview.net/forum?id=jJeY7w8YRz) (ICML 2023). 
+ Official implementation of the work [Sequential Predictive Conformal Inference for Time Series](https://openreview.net/forum?id=jJeY7w8YRz) (ICML 2023). [Slide](https://bpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/9/2055/files/2023/06/SPCI_slide.pdf) and [Poster](https://bpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/9/2055/files/2023/09/SPCI_poster.pdf) are also available.
  
  Please direct questions regarding implementation to cxu310@gatech.edu.
  
